@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "llama3_interpretability_sae"
+version = "0.2.0"
+package-mode = false
+description = "Research project on the interpretability of large language models using sparse autoencoders."
+authors = ["Paul Pauls <mail@paulpauls.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.12"
+torch = "2.4.1"
+numpy = "2.1.2"
+tiktoken = "0.8.0"
+datasets = "3.0.1"
+huggingface-hub = "0.25.2"
+pydantic = "2.9.2"
+blobfile = "^3.0.0"
+pyyaml = "^6.0.2"
+wandb = "^0.18.3"
+tqdm = "^4.66.5"
+anthropic = "^0.36.1"
+pillow = "^10.4.0"
+gradio = "^5.5.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+select = ["ALL"]
+target-version = "py312"
+line-length = 100
+
+[tool.docformatter]
+wrap-summaries = 100
+wrap-descriptions = 100
