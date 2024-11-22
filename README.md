@@ -1,6 +1,6 @@
 # Llama 3 Interpretability with Sparse Autoencoders
 
-[![Version](https://img.shields.io/badge/Version-0.2-brightgreen.svg)](https://github.com/PaulPauls/llama3_interpretability_sae)
+[![Version](https://img.shields.io/badge/Version-0.2.1-brightgreen.svg)](https://github.com/PaulPauls/llama3_interpretability_sae)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 [![PyTorch 2.4.1](https://img.shields.io/badge/PyTorch-2.4.1-%23EE4C2C.svg?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Llama 3.2](https://img.shields.io/badge/🦙%20Llama-3.2-blueviolet.svg)](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/)

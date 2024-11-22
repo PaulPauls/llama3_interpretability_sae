@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "llama3_interpretability_sae"
-version = "0.2.0"
+version = "0.2.1"
 package-mode = false
 description = "Research project on the interpretability of large language models using sparse autoencoders."
 authors = ["Paul Pauls <mail@paulpauls.com>"]
